@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
 import { v4 as uuid } from "uuid";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://codeconnect-by-team-seven.onrender.com");
 
 // Mapping Piston API language values to Monaco Editor language identifiers
 const getMonacoLanguage = (language) => {
@@ -253,7 +253,10 @@ const App = () => {
             </svg>
             About
           </a>
-          <a href="/developers" className="navbar-link">
+          <a
+            href="https://pabitra-sahoo.github.io/Code-Connect-Team/"
+            className="navbar-link"
+          >
             <svg
               width="18"
               height="18"
@@ -281,7 +284,9 @@ const App = () => {
       <span>Made with</span>
       <span className="heart">❤️</span>
       <span>by</span>
-      <a href="/team">Team Seven</a>
+      <a href="https://pabitra-sahoo.github.io/Code-Connect-Team/">
+        Team Seven
+      </a>
       <span>•</span>
       <a href="/">CodeConnect</a>
       <span>© 2025</span>
