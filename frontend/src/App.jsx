@@ -225,7 +225,7 @@ const App = () => {
             <path d="M8 3L3 8L8 13" />
             <path d="M16 3L21 8L16 13" />
           </svg>
-          <h1>Code-Room</h1>
+          <h1>CodeConnect</h1>
         </a>
         <div
           className={`hamburger ${isMenuOpen ? "active" : ""}`}
@@ -470,7 +470,7 @@ const App = () => {
             <path d="M8 3L3 8L8 13" />
             <path d="M16 3L21 8L16 13" />
           </svg>
-          <h1>Code-Room</h1>
+          <h1>CodeConnect</h1>
         </div>
         <div className="header-right">
           <button
